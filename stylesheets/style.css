@@ -9,6 +9,12 @@ body {
     color: white;
 }
 
+#color-btn {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+
 #countdown {
     background: rgba(0, 0, 0, 0.7);
     padding: 40px 60px;
@@ -20,6 +26,7 @@ body {
 #timer {
     font-size: 3rem;
     letter-spacing: 3px;
+    color: white;
 }
 
 .timer-unit {
