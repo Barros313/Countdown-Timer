@@ -1,6 +1,6 @@
-let yellowButton = document.getElementById("btn-color-yellow");
-let blueButton = document.getElementById("btn-color-blue");
-let greenButton = document.getElementById("btn-color-green");
+let yellowButton = document.getElementById("color-btn-yellow");
+let blueButton = document.getElementById("color-btn-blue");
+let greenButton = document.getElementById("color-btn-green");
 
 yellowButton.addEventListener("click", () => {
     document.body.style.background = defineLinearGradient("Yellow");
